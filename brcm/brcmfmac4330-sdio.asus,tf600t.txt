@@ -1,0 +1,53 @@
+# Azurewave Release 2012/11/08-1
+# NH665 bgn+BT+FM       Win8  TF600T(reduce TX power)
+manfid=0x2d0
+prodid=0x0552
+vendid=0x14e4
+devid=0x4360
+boardtype=0x0547
+boardrev=0x11
+# this design has 2.4GHz SP3T switch
+boardflags=0x00081200
+nocrc=1
+xtalfreq=37400
+boardnum=22
+#macaddr=00:11:22:33:44:55
+#nvram_override=1
+cckdigfilttype=20            #20~26
+ag0=255
+aa2g=3
+#ccode=XV
+#regrev=0
+#pa0itssit=0x20
+#pa0b0=0x1203
+#pa0b1=0xfd99
+#pa0b2=0xff29
+rssismf2g=0xa
+rssismc2g=0x3
+rssisav2g=0x7
+maxp2ga0=0x32                  #11b=11
+sromrev=3
+#il0macaddr=00:11:22:33:44:55
+wl0id=0x431b
+cckPwrOffset=5
+ofdmdigfilttype2g=4
+ofdm2gpo=0x00000000
+mcs2gpo0=0x0000                #11n=11
+mcs2gpo1=0x0000                #11n=11
+swctrlmap_2g=0x44844484,0x4a8a4282,0x42824282,0x818a82,0x1ff
+swctrlmap_5g=0
+#noise_cal_ref_2g=53
+rfreg033=0x19
+rfreg033_cck=0x1f
+dacrate2g=160
+txalpfbyp2g=1
+bphyscale=17
+cckPwrIdxCorr=-15
+pacalidx2g=40
+pacalath2g=195
+##pacalidx2g1=65
+noise_cal_enable_2g=1
+txgaintbl=1
+#triso2g=9
+muxenab=0x10
+
